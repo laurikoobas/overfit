@@ -1,0 +1,15 @@
+Package: overfit
+Type: Package
+Title: Produces complete(ly overfit) decision trees
+Version: 0.0.0.9000
+Date: 2015-02-06
+Authors@R: person("Lauri", "Koobas", email = "laurikoobas@gmail.com",
+  role=c("aut", "cre"))
+Maintainer: Lauri Koobas <laurikoobas@gmail.com>
+Description: It produces a classification tree with perfect accuracy to use as a
+    baseline for comparisons. The resulting tree is ideally the minimal version
+    of a complete tree, meaning it has less than N number of nodes, where N is 
+    the number of observations in data.
+License: GPL-3
+Depends: R (>= 3.1.0)
+URL: https://github.com/laurikoobas/overfit
